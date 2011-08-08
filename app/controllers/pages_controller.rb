@@ -10,4 +10,9 @@ end
 
 def about
 @title = "About"
-end end
+end 
+
+def about
+@title = "Help"
+end 
+end
