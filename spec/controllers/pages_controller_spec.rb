@@ -36,7 +36,8 @@ describe "GET 'contact'" do
   describe "GET 'about'" do
     it "should be successful" do
       get 'about'
-      response.should be_success end
+      response.should be_success 
+      end
       
       it "should have the right title" do
         get 'about'
@@ -48,7 +49,8 @@ describe "GET 'contact'" do
    describe "GET 'help'" do
      it "should be successful" do
        get 'help'
-       response.should be_success end
+       response.should be_success 
+       end
 
        it "should have the right title" do
          get 'help'
